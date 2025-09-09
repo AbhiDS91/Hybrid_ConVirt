@@ -1,4 +1,6 @@
-Research Thesis Ontario Tech University 
+**Research Thesis Ontario Tech University** --- Abhinav Sharma 
+
+The details of this project can be found in the 'report' folder
 
 # Hybrid-ConVIRT
 
