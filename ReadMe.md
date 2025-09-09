@@ -114,7 +114,8 @@ To enhance training, we employ **prompt ensembling**:
   - Treats all classes equally, regardless of imbalance.
   - Especially important for medical datasets where minority classes are critical.
 
-**Implemented with scikit-learn:**
+**Implemented with scikit-learn** 
+**For Example:**
 ```python
 from sklearn.metrics import precision_score, recall_score, f1_score
 
