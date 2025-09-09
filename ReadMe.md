@@ -9,7 +9,7 @@ This repository provides the **training methodology, evaluation setup, and imple
 
 ---
 
-## 📌 Methodology
+##  Methodology
 
 The training pipeline of Hybrid-ConVIRT can be divided into **three major stages**:
 
@@ -31,7 +31,7 @@ The training pipeline of Hybrid-ConVIRT can be divided into **three major stages
 
 ---
 
-## 🧩 Contrastive Similarity Matrix (CSM)
+##  Contrastive Similarity Matrix (CSM)
 
 To build the CSM:
 - Train image/text encoders in a **paired manner** (image + true caption).
@@ -42,7 +42,7 @@ To build the CSM:
 
 ---
 
-## ✍️ Prompt Engineering & Ensembling
+## Prompt Engineering & Ensembling
 
 To enhance training, we employ **prompt ensembling**:
 - Many chest X-ray datasets provide **labels** instead of full radiology reports.
@@ -58,7 +58,7 @@ To enhance training, we employ **prompt ensembling**:
 
 ---
 
-## ⚙️ Model Training & Environment
+##  Model Training & Environment
 
 ### Libraries & Frameworks
 - **Data Handling**: `os`, `numpy`, `pandas`
@@ -103,7 +103,7 @@ To enhance training, we employ **prompt ensembling**:
 
 ---
 
-## 📊 Evaluation
+## Evaluation
 
 ### Linear Probing
 - A **linear classifier** is trained on frozen Hybrid-ConVIRT image encoder features.
