@@ -38,7 +38,7 @@ To build the CSM:
 - Each caption describes the diagnosis/findings in the X-ray report.
 - Positive pairs are pulled closer, negative pairs pushed apart in the embedding space.
 
-⚠️ Since ConVIRT’s pre-trained weights are not public, we re-train from scratch using the ConVIRT-style approach.
+ Since ConVIRT’s pre-trained weights are not public, we re-train from scratch using the ConVIRT-style approach.
 
 ---
 
@@ -80,7 +80,7 @@ To enhance training, we employ **prompt ensembling**:
 
 ---
 
-## 🔧 Hyperparameter Tuning
+##  Hyperparameter Tuning
 
 - **Tool Used**: [Optuna](https://optuna.org/) (Bayesian optimization-based)
 - **Why Optuna?** Efficient search compared to grid/random search.
